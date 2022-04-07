@@ -11,4 +11,5 @@ struct Document {
     let id = UUID()
     let date = Date()
     var title: String
+    var image: Data
 }
